@@ -9,7 +9,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 @SuppressWarnings("unused")
 public class HomeScreen extends BaseClass {
 	
-	public static String primaryInfo  = "{\"user_id\":7,\"is_generate\":false,\"is_execute\":false,\"is_web\":true,\"project_url\":\"http://devrabbit.com/\",\"report_upload_url\":\"https://192.168.1.142:8080/TAF_Automation_DR/UploadReportFile\",\"project_name\":\"SmartQE-Jenkins-Demo\",\"project_description\":\"desc\",\"project_id\":211,\"module_name\":\"SampleModule\",\"module_description\":\"desc\",\"sub_module_id\":0,\"module_id\":354,\"testcase_name\":\"TC_Home\",\"testcase_id\":425,\"testset_id\":0,\"executed_timestamp\":-1715949018,\"browser_type\":\"chrome\"}";
+	public static String primaryInfo  = "{\"user_id\":7,\"is_generate\":false,\"is_execute\":false,\"is_web\":true,\"project_url\":\"http://devrabbit.com/\",\"report_upload_url\":\"https://192.168.1.142:8080/TAF_Automation_DR/UploadReportFile\",\"project_name\":\"SmartQE-Jenkins-Demo\",\"project_description\":\"desc\",\"project_id\":211,\"module_name\":\"SampleModule\",\"module_description\":\"desc\",\"sub_module_id\":0,\"module_id\":354,\"testcase_name\":\"TC_Home2\",\"testcase_id\":426,\"testset_id\":0,\"executed_timestamp\":-1715766317,\"browser_type\":\"chrome\"}";
 
 	public static String projectName = "smartqejenkinsdemo";
 	public WebDriver driver;
