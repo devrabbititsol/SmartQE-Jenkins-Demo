@@ -41,6 +41,18 @@ public class FileUploaderClient {
 			for (String line : response) {
 				System.out.println(line);
 			}
+			
+			try {
+				Files.deleteIfExists(Paths.get(reportPath));
+			} catch (NoSuchFileException e) {
+				System.out.println("No such file/directory exists");
+			} catch (DirectoryNotEmptyException e) {
+				System.out.println("Directory is not empty.");
+			} catch (IOException e) {
+				System.out.println("Invalid permissions.");
+			}
+
+			System.out.println("Cleaned Reports successful.");
 		} catch (Exception ex) {
 			System.err.println(ex);
 		}
