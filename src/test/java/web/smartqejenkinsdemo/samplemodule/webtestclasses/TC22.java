@@ -16,7 +16,7 @@ import com.utilities.Utilities;
 import org.json.JSONObject;
 
 @SuppressWarnings("unused")
-public class TC_Home2 extends BaseClass {
+public class TC22 extends BaseClass {
 	ExtentReports reports;
 	ExtentTest test;
 	ITestResult result;
@@ -24,13 +24,13 @@ public class TC_Home2 extends BaseClass {
 	private ConfigFilesUtility configFileObj;
 	public boolean isElementDispalyed = false;	public static final int datasetsLength = 1;
 
-	public TC_Home2() throws Exception {
+	public TC22() throws Exception {
 		PropertyConfigurator.configure("log4j.properties");
-		logger = Logger.getLogger(TC_Home2.class);
+		logger = Logger.getLogger(TC22.class);
 		configFileObj = new ConfigFilesUtility();
-		configFileObj.loadPropertyFile("tc_home2.properties");
+		configFileObj.loadPropertyFile("tc22.properties");
 		reports = ExtentConfigurations.getExtentInstance(reportsPath, projectPath, HomeScreen.projectName);
-		test = reports.startTest("TC_Home2");
+		test = reports.startTest("TC22");
 	}
 	
 	public void setUP() throws Exception {
